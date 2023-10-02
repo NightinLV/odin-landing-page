@@ -4,7 +4,8 @@
 }
 
 .hero-main,
-.logo {
+.logo,
+button {
     color: #f9faf8;
 }
 
@@ -14,9 +15,16 @@
     color: #E5E7EB;
 }
 
-.sign-up, 
+button, 
 .call {
     background-color: #3882f6;
+}
+
+button {
+    padding: 4px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 .header {
@@ -28,6 +36,7 @@
 .nav {
     display: flex;
     justify-content: space-around;
+    padding: 30px 0;
 }
 
 .logo {
@@ -39,10 +48,15 @@
     font-weight: bolder;
 }
 
+.hero-sub {
+    padding-bottom: 10px;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     margin-top: 35px;
+    padding-bottom: 50px;
 }
 
 .hero-left {
@@ -71,12 +85,17 @@ ul {
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
-    margin-bottom: 35px;
+    margin: 40px 0;
+}
+
+.information {
+    padding-bottom: 60px;
 }
 
 .information-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 80px;
 }
 
 .information-pic {
@@ -88,4 +107,51 @@ ul {
 
 .information-subtext {
     max-width: 160px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 15%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.signature {
+    font-weight: bolder;
+    text-align: right;
+    margin-top: -35px;
+    margin-left: auto;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
+.call-button {
+    border: 2px solid white;
+    align-self: center;
+}
+
+.call-sub {
+    margin-top: -20px;
+}
+
+.footer {
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0;
 }
