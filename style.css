@@ -10,9 +10,13 @@ button {
 }
 
 .hero-sub,
-.links-right {
+.links-right a {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
 }
 
 button, 
