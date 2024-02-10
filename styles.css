@@ -30,7 +30,7 @@ ul {
 .hero {
     display: flex;
     justify-content: center;
-    margin: 4rem 0;
+    padding: 4rem 0;
 }
 
 .hero-left {
@@ -54,4 +54,38 @@ ul {
     justify-content: center;
     align-items: center;
     width: 37rem;
+}
+
+.info {
+    padding-bottom: 4rem;
+}
+
+.info > h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.img-with-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-border {
+    width: 160px;
+    height: 160px;
+    border: 2px solid blue;
+    border-radius: 10%;
+}
+
+.img-with-info > p {
+    width: 160px;
+    text-align: center;
+    flex-wrap: wrap;
 }
