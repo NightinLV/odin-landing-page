@@ -111,3 +111,33 @@ ul {
 .thor {
     align-self: flex-end;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.action-container {
+    width: 60rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.action-left > h4,
+.action-left > p {
+    margin: 0;
+    padding: 0;
+}
+
+.action-container > button {
+    align-self: center;
+}
