@@ -69,6 +69,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 4rem;
+    flex-wrap: wrap;
 }
 
 .img-with-info {
@@ -88,4 +89,25 @@ ul {
     width: 160px;
     text-align: center;
     flex-wrap: wrap;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.quote-and-quoted {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    max-width: 22rem;
+    flex-wrap: wrap;
+}
+
+.thor {
+    align-self: flex-end;
 }
