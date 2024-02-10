@@ -24,7 +24,14 @@ ul {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 75rem;
 }
 
 .hero {
