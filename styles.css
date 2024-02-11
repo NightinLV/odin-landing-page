@@ -1,12 +1,12 @@
 html {
     box-sizing: border-box;
+    font-family: roboto, sans-serif;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
-    border: 2px solid red;
 }
 
 .page-container {
@@ -101,6 +101,9 @@ li > a {
 .info > h2 {
     text-align: center;
     margin: 2rem;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .info-container {
@@ -119,8 +122,8 @@ li > a {
 .img-border {
     width: 160px;
     height: 160px;
-    border: 2px solid blue;
-    border-radius: 10%;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
 }
 
 .img-with-info > p {
@@ -134,20 +137,27 @@ li > a {
     justify-content: center;
     align-items: center;
     padding: 4rem;
+    background-color: #e5e7eb;
 }
 
 .quote-and-quoted {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .quote {
-    max-width: 22rem;
+    max-width: 50rem;
     flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .thor {
     align-self: flex-end;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .action {
@@ -161,6 +171,8 @@ li > a {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
+    background-color: #3882f6;
+    border-radius: 15px;
 }
 
 .action-left {
@@ -174,14 +186,29 @@ li > a {
 .action-left > p {
     margin: 0;
     padding: 0;
+    COLOR: #e5e7eb;
+}
+
+.action-left > h4 {
+    font-weight: 900;
 }
 
 .action-container > button {
     align-self: center;
+    border: 2px solid white;
+    background-color: #3882f6;
+    width: 105px;
+    height: 30px;
+    border-radius: 7px;
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 15px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     padding: 0.5rem 0;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
